@@ -1,0 +1,8 @@
+language: ruby
+rvm:
+  - 2.6.5
+before_install:
+  - gem install rspec
+script:
+  - ruby test.rb
+  - rspec test_rspec.rb
